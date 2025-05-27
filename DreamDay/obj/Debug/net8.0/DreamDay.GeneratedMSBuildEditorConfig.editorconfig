@@ -9,131 +9,131 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DreamDay
 build_property.RootNamespace = DreamDay
-build_property.ProjectDir = /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/
+build_property.ProjectDir = /Users/dinethpanditha/Desktop/DreamDay/DreamDay/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay
+build_property.MSBuildProjectDirectory = /Users/dinethpanditha/Desktop/DreamDay/DreamDay
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Account/Login.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Account/Register.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Admin/DeleteUser.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Admin/DeleteUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRGVsZXRlVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Admin/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Admin/ManageUsers.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Admin/ManageUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTWFuYWdlVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Budget/Create.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Budget/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0L0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Budget/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Budget/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Checklist/Create.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Checklist/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tsaXN0L0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Checklist/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Checklist/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tsaXN0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Dashboard/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/GuestList/Create.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/GuestList/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3Vlc3RMaXN0L0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/GuestList/Edit.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/GuestList/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3Vlc3RMaXN0L0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/GuestList/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/GuestList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3Vlc3RMaXN0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Home/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Home/Privacy.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Planner/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Planner/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxhbm5lci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Planner/ManageVendors.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Planner/ManageVendors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxhbm5lci9NYW5hZ2VWZW5kb3JzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Report/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Report/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Shared/Error.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Shared/_LoginPartial.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Timeline/Create.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Timeline/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGltZWxpbmUvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Timeline/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Timeline/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGltZWxpbmUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Vendor/Create.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Vendor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Vendor/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Vendor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Venue/Create.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Venue/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVudWUvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Venue/Index.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Venue/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVudWUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/_ViewImports.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/_ViewStart.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/Views/Shared/_Layout.cshtml]
+[/Users/dinethpanditha/Desktop/DreamDay/DreamDay/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ngk8ikr8cr

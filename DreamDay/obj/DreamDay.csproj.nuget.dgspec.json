@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/DreamDay.csproj": {}
+    "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/DreamDay.csproj": {}
   },
   "projects": {
-    "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/DreamDay.csproj": {
+    "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/DreamDay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/DreamDay.csproj",
+        "projectUniqueName": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/DreamDay.csproj",
         "projectName": "DreamDay",
-        "projectPath": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/DreamDay.csproj",
+        "projectPath": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/DreamDay.csproj",
         "packagesPath": "/Users/dinethpanditha/.nuget/packages/",
-        "outputPath": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/",
+        "outputPath": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dinethpanditha/.nuget/NuGet/NuGet.Config"

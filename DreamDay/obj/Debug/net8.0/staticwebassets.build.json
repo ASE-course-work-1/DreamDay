@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AnIc8xfeEJOv+AV7aKcQp06XXliR/taz9Ldk/WVMqEQ=",
+  "Hash": "5GIRB18sA8kxY5awv6hjitxcKDd1RS/D78eiYNpGLFg=",
   "Source": "DreamDay",
   "BasePath": "_content/DreamDay",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DreamDay/wwwroot",
       "Source": "DreamDay",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/scopedcss/bundle/DreamDay.styles.css",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/obj/Debug/net8.0/scopedcss/bundle/DreamDay.styles.css",
       "SourceId": "DreamDay",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "DreamDay.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/scopedcss/bundle/DreamDay.styles.css"
+      "OriginalItemSpec": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/obj/Debug/net8.0/scopedcss/bundle/DreamDay.styles.css"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/scopedcss/projectbundle/DreamDay.bundle.scp.css",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/obj/Debug/net8.0/scopedcss/projectbundle/DreamDay.bundle.scp.css",
       "SourceId": "DreamDay",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "DreamDay.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/scopedcss/projectbundle/DreamDay.bundle.scp.css"
+      "OriginalItemSpec": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/obj/Debug/net8.0/scopedcss/projectbundle/DreamDay.bundle.scp.css"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/css/site.css",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/css/site.css",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/favicon.ico",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/favicon.ico",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/js/site.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/js/site.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/bootstrap/bootstrap.bundle.min.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/bootstrap/bootstrap.bundle.min.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/bootstrap/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/bootstrap/bootstrap.min.css",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/fontawesome/all.min.css",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/fontawesome/all.min.css",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/fontawesome/all.min.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/lib/fontawesome/all.min.css"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/fontawesome/all.min.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/fontawesome/all.min.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/fontawesome/all.min.js",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/lib/fontawesome/all.min.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "DreamDay",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/",
+      "ContentRoot": "/Users/dinethpanditha/Desktop/DreamDay/DreamDay/wwwroot/",
       "BasePath": "_content/DreamDay",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
