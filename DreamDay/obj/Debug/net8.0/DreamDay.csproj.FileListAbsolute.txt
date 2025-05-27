@@ -7,9 +7,11 @@
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/DreamDay.dll
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/DreamDay.pdb
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/Humanizer.dll
+/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/Microsoft.AspNetCore.Authorization.dll
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/Microsoft.AspNetCore.Metadata.dll
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
