@@ -30,14 +30,18 @@ using (var scope = app.Services.CreateScope())
         var userManager = services.GetRequiredService<UserManager<User>>();
         var roleManager = services.GetRequiredService<RoleManager<IdentityRole<int>>>();
 
-        // Ensure Admin role exists
-        if (!await roleManager.RoleExistsAsync("Admin"))
+        // Create required roles
+        string[] roles = { "Admin", "Planner", "Client" };
+        foreach (var role in roles)
         {
-            await roleManager.CreateAsync(new IdentityRole<int> { Name = "Admin" });
+            if (!await roleManager.RoleExistsAsync(role))
+            {
+                await roleManager.CreateAsync(new IdentityRole<int> { Name = role });
+            }
         }
 
         // Create admin user if not exists
-        var adminEmail = "admin";
+        var adminEmail = "admin@dreamday.com";
         var adminUser = await userManager.FindByEmailAsync(adminEmail);
         if (adminUser == null)
         {
@@ -45,19 +49,28 @@ using (var scope = app.Services.CreateScope())
             {
                 UserName = "admin",
                 Email = adminEmail,
+                EmailConfirmed = true,
                 Role = "Admin"
             };
-            var result = await userManager.CreateAsync(adminUser, "admin123"); // Secure password
+            var result = await userManager.CreateAsync(adminUser, "Admin@123");
             if (result.Succeeded)
             {
                 await userManager.AddToRoleAsync(adminUser, "Admin");
+                Console.WriteLine("Admin user created successfully");
+            }
+            else
+            {
+                var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+                Console.WriteLine($"Failed to create admin user: {errors}");
             }
         }
     }
     catch (Exception ex)
     {
-        // Log error (in production, use proper logging)
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occurred while initializing the database.");
         Console.WriteLine($"Error initializing admin: {ex.Message}");
+        Console.WriteLine($"Stack trace: {ex.StackTrace}");
     }
 }
 
