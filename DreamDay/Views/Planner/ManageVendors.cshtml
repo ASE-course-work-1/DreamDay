@@ -1,0 +1,39 @@
+@model IEnumerable<DreamDay.Models.Vendor>
+  @{
+      ViewData["Title"] = "Manage Vendors";
+      var weddingId = ViewBag.WeddingId;
+      var availableVendors = ViewBag.AvailableVendors as IEnumerable<DreamDay.Models.Vendor>;
+  }
+  <h1>Manage Vendors</h1>
+  <h3>Current Vendors</h3>
+  <table class="table">
+      <thead>
+          <tr>
+              <th>Name</th>
+              <th>Type</th>
+          </tr>
+      </thead>
+      <tbody>
+          @foreach (var vendor in Model)
+          {
+              <tr>
+                  <td>@vendor.Name</td>
+                  <td>@vendor.Type</td>
+              </tr>
+          }
+      </tbody>
+  </table>
+  <h3>Add Vendor</h3>
+  <form asp-action="AddVendor" method="post" class="mt-4">
+      <input type="hidden" name="weddingId" value="@weddingId" />
+      <div class="mb-3">
+          <label class="form-label">Select Vendor</label>
+          <select name="vendorId" class="form-select" required>
+              @foreach (var vendor in availableVendors)
+              {
+                  <option value="@vendor.Id">@vendor.Name (@vendor.Type)</option>
+              }
+          </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Add</button>
+  </form>

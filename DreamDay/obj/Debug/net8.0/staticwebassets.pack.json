@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
+      "Id": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/bootstrap/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/bootstrap.min.css"
+    },
+    {
       "Id": "/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },

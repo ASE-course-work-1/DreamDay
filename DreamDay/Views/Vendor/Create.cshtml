@@ -1,0 +1,32 @@
+@model DreamDay.Models.Vendor
+   @{
+       ViewData["Title"] = "Create Vendor";
+   }
+   <h1>Create Vendor</h1>
+   <form asp-action="Create" method="post">
+       <div asp-validation-summary="All" class="error"></div>
+       <div class="form-group mb-3">
+           <label asp-for="Name"></label>
+           <input asp-for="Name" class="form-control" required />
+           <span asp-validation-for="Name" class="error"></span>
+       </div>
+       <div class="form-group mb-3">
+           <label asp-for="Type"></label>
+           <input asp-for="Type" class="form-control" required />
+           <span asp-validation-for="Type" class="error"></span>
+       </div>
+       <div class="form-group mb-3">
+           <label asp-for="Price"></label>
+           <input asp-for="Price" class="form-control" type="number" step="0.01" required />
+           <span asp-validation-for="Price" class="error"></span>
+       </div>
+       <div class="form-group mb-3">
+           <label asp-for="Reviews"></label>
+           <textarea asp-for="Reviews" class="form-control"></textarea>
+           <span asp-validation-for="Reviews" class="error"></span>
+       </div>
+       <button type="submit" class="btn btn-primary">Create</button>
+   </form>
+   @section Scripts {
+       <partial name="_ValidationScriptsPartial" />
+   }

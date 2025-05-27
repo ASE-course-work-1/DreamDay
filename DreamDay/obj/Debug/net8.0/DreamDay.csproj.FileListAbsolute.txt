@@ -111,3 +111,5 @@
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/DreamDay.pdb
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/DreamDay.genruntimeconfig.cache
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/ref/DreamDay.dll
+/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/package-lock.json
+/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/package.json

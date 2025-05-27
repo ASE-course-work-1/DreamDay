@@ -1,0 +1,32 @@
+@model List<DreamDay.Models.ChecklistItem>
+   @{
+       ViewData["Title"] = "Checklist";
+       int weddingId = ViewBag.WeddingId;
+   }
+   <h1>Wedding Checklist</h1>
+   <a asp-action="Create" asp-route-weddingId="@weddingId" class="btn btn-success mb-3">Add Task</a>
+   <table class="table">
+       <thead>
+           <tr>
+               <th>Task</th>
+               <th>Due Date</th>
+               <th>Status</th>
+               <th>Actions</th>
+           </tr>
+       </thead>
+       <tbody>
+           @foreach (var item in Model)
+           {
+               <tr>
+                   <td>@item.Task</td>
+                   <td>@(item.DueDate?.ToShortDateString() ?? "N/A")</td>
+                   <td>@(item.IsCompleted ? "Completed" : "Pending")</td>
+                   <td>
+                       <form asp-action="Toggle" asp-route-id="@item.Id" method="post" style="display:inline;">
+                           <button type="submit" class="btn btn-sm btn-primary">@(item.IsCompleted ? "Mark Pending" : "Mark Complete")</button>
+                       </form>
+                   </td>
+               </tr>
+           }
+       </tbody>
+   </table>

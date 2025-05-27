@@ -1,0 +1,26 @@
+@model IEnumerable<DreamDay.Models.TimelineEvent>
+  @{
+      ViewData["Title"] = "Timeline";
+      var weddingId = ViewBag.WeddingId;
+  }
+  <h1>Wedding Timeline</h1>
+  <a href="/Timeline/Create/@weddingId" class="btn btn-success mb-3">Add Event</a>
+  <table class="table">
+      <thead>
+          <tr>
+              <th>Event</th>
+              <th>Time</th>
+              <th>Description</th>
+          </tr>
+      </thead>
+      <tbody>
+          @foreach (var evt in Model)
+          {
+              <tr>
+                  <td>@evt.EventName</td>
+                  <td>@evt.Time.ToString(@"hh\:mm")</td>
+                  <td>@evt.Description</td>
+              </tr>
+          }
+      </tbody>
+  </table>

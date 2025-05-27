@@ -1,0 +1,24 @@
+@model DreamDay.Models.BudgetItem
+  @{
+      ViewData["Title"] = "Create Budget Item";
+  }
+  <h1>Create Budget Item</h1>
+  <form asp-action="Create" method="post" class="mt-4">
+      <input type="hidden" asp-for="WeddingId" />
+      <div class="mb-3">
+          <label asp-for="Category" class="form-label"></label>
+          <input asp-for="Category" class="form-control" required />
+          <span asp-validation-for="Category" class="error-message"></span>
+      </div>
+      <div class="mb-3">
+          <label asp-for="AllocatedAmount" class="form-label"></label>
+          <input asp-for="AllocatedAmount" class="form-control" type="number" step="0.01" required />
+          <span asp-validation-for="AllocatedAmount" class="error-message"></span>
+      </div>
+      <div class="mb-3">
+          <label asp-for="SpentAmount" class="form-label"></label>
+          <input asp-for="SpentAmount" class="form-control" type="number" step="0.01" />
+          <span asp-validation-for="SpentAmount" class="error-message"></span>
+      </div>
+      <button type="submit" class="btn btn-primary">Create</button>
+  </form>

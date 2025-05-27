@@ -1,0 +1,24 @@
+@model DreamDay.Models.TimelineEvent
+  @{
+      ViewData["Title"] = "Create Timeline Event";
+  }
+  <h1>Create Timeline Event</h1>
+  <form asp-action="Create" method="post" class="mt-4">
+      <input type="hidden" asp-for="WeddingId" />
+      <div class="mb-3">
+          <label asp-for="EventName" class="form-label"></label>
+          <input asp-for="EventName" class="form-control" required />
+          <span asp-validation-for="EventName" class="error-message"></span>
+      </div>
+      <div class="mb-3">
+          <label asp-for="Time" class="form-label"></label>
+          <input asp-for="Time" class="form-control" type="time" required />
+          <span asp-validation-for="Time" class="error-message"></span>
+      </div>
+      <div class="mb-3">
+          <label asp-for="Description" class="form-label"></label>
+          <textarea asp-for="Description" class="form-control"></textarea>
+          <span asp-validation-for="Description" class="error-message"></span>
+      </div>
+      <button type="submit" class="btn btn-primary">Create</button>
+  </form>

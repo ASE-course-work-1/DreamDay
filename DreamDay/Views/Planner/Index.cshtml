@@ -1,0 +1,19 @@
+@model IEnumerable<DreamDay.Models.Wedding>
+  @{
+      ViewData["Title"] = "Planner Dashboard";
+  }
+  <h1>Planner Dashboard</h1>
+  <div class="row">
+      @foreach (var wedding in Model)
+      {
+          <div class="col-md-4">
+              <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title">@wedding.Name</h5>
+                      <p class="card-text">Date: @wedding.Date.ToShortDateString()</p>
+                      <a href="/Planner/ManageVendors/@wedding.Id" class="btn btn-primary">Manage Vendors</a>
+                  </div>
+              </div>
+          </div>
+      }
+  </div>

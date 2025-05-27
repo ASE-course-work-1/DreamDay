@@ -1,0 +1,25 @@
+@model IEnumerable<DreamDay.Models.Report>
+  @{
+      ViewData["Title"] = "Reports";
+  }
+  <h1>Reports</h1>
+  <a href="/Report/GenerateVenuePopularity" class="btn btn-success mb-3">Generate Venue Popularity Report</a>
+  <table class="table">
+      <thead>
+          <tr>
+              <th>Type</th>
+              <th>Generated At</th>
+              <th>Data</th>
+          </tr>
+      </thead>
+      <tbody>
+          @foreach (var report in Model)
+          {
+              <tr>
+                  <td>@report.ReportType</td>
+                  <td>@report.GeneratedAt.ToString("g")</td>
+                  <td>@report.ReportData</td>
+              </tr>
+          }
+      </tbody>
+  </table>

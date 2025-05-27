@@ -1,0 +1,29 @@
+@model List<DreamDay.Models.BudgetItem>
+    @{
+        ViewData["Title"] = "Budget";
+        int weddingId = ViewBag.WeddingId;
+        decimal totalBudget = ViewBag.TotalBudget;
+        decimal totalSpent = ViewBag.TotalSpent;
+    }
+    <h1>Budget Tracker</h1>
+    <p>Total Budget: $@totalBudget | Total Spent: $@totalSpent @if (totalSpent > totalBudget) { <span class="error">(Over Budget!)</span> }</p>
+    <a asp-action="Create" asp-route-weddingId="@weddingId" class="btn btn-success mb-3">Add Budget Item</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Allocated</th>
+                <th>Spent</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Category</td>
+                    <td>$@item.AllocatedAmount</td>
+                    <td>$@item.SpentAmount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
