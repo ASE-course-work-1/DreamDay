@@ -1,23 +1,29 @@
 @model DreamDay.Models.ChecklistItem
-   @{
-       ViewData["Title"] = "Create Checklist Item";
-   }
-   <h1>Create Checklist Item</h1>
-   <form asp-action="Create" method="post">
-       <div asp-validation-summary="All" class="error"></div>
-       <input type="hidden" asp-for="WeddingId" />
-       <div class="form-group mb-3">
-           <label asp-for="Task"></label>
-           <input asp-for="Task" class="form-control" required />
-           <span asp-validation-for="Task" class="error"></span>
-       </div>
-       <div class="form-group mb-3">
-           <label asp-for="DueDate"></label>
-           <input asp-for="DueDate" class="form-control" type="date" />
-           <span asp-validation-for="DueDate" class="error"></span>
-       </div>
-       <button type="submit" class="btn btn-primary">Create</button>
-   </form>
-   @section Scripts {
-       <partial name="_ValidationScriptsPartial" />
-   }
+  @{
+      ViewData["Title"] = "Create Checklist Item";
+  }
+  <div class="row justify-content-center">
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-header bg-primary text-white">
+                  <h4><i class="fas fa-plus me-2"></i>Create Checklist Item</h4>
+              </div>
+              <div class="card-body">
+                  <form asp-action="Create" method="post" class="mt-3">
+                      <input type="hidden" asp-for="WeddingId" />
+                      <div class="mb-3">
+                          <label asp-for="Task" class="form-label"><i class="fas fa-list-check me-2"></i>Task</label>
+                          <input asp-for="Task" class="form-control" required />
+                          <span asp-validation-for="Task" class="error-message"></span>
+                      </div>
+                      <div class="mb-3">
+                          <label asp-for="DueDate" class="form-label"><i class="fas fa-calendar-alt me-2"></i>Due Date</label>
+                          <input asp-for="DueDate" class="form-control" type="date" />
+                          <span asp-validation-for="DueDate" class="error-message"></span>
+                      </div>
+                      <button type="submit" class="btn btn-primary w-100"><i class="fas fa-check me-2"></i>Create</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>

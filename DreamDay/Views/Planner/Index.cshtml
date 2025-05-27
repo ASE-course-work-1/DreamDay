@@ -2,18 +2,22 @@
   @{
       ViewData["Title"] = "Planner Dashboard";
   }
-  <h1>Planner Dashboard</h1>
-  <div class="row">
-      @foreach (var wedding in Model)
-      {
-          <div class="col-md-4">
-              <div class="card">
-                  <div class="card-body">
-                      <h5 class="card-title">@wedding.Name</h5>
-                      <p class="card-text">Date: @wedding.Date.ToShortDateString()</p>
-                      <a href="/Planner/ManageVendors/@wedding.Id" class="btn btn-primary">Manage Vendors</a>
+  <div class="row justify-content-center">
+      <div class="col-12">
+          <h1 class="text-center mb-4"><i class="fas fa-user-tie me-2"></i>Planner Dashboard</h1>
+          <div class="row">
+              @foreach (var wedding in Model)
+              {
+                  <div class="col-md-4 mb-4">
+                      <div class="card">
+                          <div class="card-body">
+                              <h5 class="card-title"><i class="fas fa-heart me-2"></i>@wedding.Name</h5>
+                              <p class="card-text"><i class="fas fa-calendar-alt me-2"></i>Date: @wedding.Date.ToShortDateString()</p>
+                              <a href="/Planner/ManageVendors/@wedding.Id" class="btn btn-primary btn-sm"><i class="fas fa-store me-2"></i>Manage Vendors</a>
+                          </div>
+                      </div>
                   </div>
-              </div>
+              }
           </div>
-      }
+      </div>
   </div>

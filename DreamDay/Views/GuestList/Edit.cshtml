@@ -1,38 +1,44 @@
 @model DreamDay.Models.Guest
-    @{
-        ViewData["Title"] = "Edit Guest";
-    }
-    <h1>Edit Guest</h1>
-    <form asp-action="Edit" method="post">
-        <div asp-validation-summary="All" class="error"></div>
-        <input type="hidden" asp-for="Id" />
-        <input type="hidden" asp-for="WeddingId" />
-        <div class="form-group mb-3">
-            <label asp-for="Name"></label>
-            <input asp-for="Name" class="form-control" required />
-            <span asp-validation-for="Name" class="error"></span>
-        </div>
-        <div class="form-group mb-3">
-            <label asp-for="RSVP"></label>
-            <select asp-for="RSVP" class="form-control">
-                <option value="Pending">Pending</option>
-                <option value="Accepted">Accepted</option>
-                <option value="Declined">Declined</option>
-            </select>
-            <span asp-validation-for="RSVP" class="error"></span>
-        </div>
-        <div class="form-group mb-3">
-            <label asp-for="MealPreference"></label>
-            <input asp-for="MealPreference" class="form-control" />
-            <span asp-validation-for="MealPreference" class="error"></span>
-        </div>
-        <div class="form-group mb-3">
-            <label asp-for="SeatingArrangement"></label>
-            <input asp-for="SeatingArrangement" class="form-control" />
-            <span asp-validation-for="SeatingArrangement" class="error"></span>
-        </div>
-        <button type="submit" class="btn btn-primary">Save</button>
-    </form>
-    @section Scripts {
-        <partial name="_ValidationScriptsPartial" />
-    }
+  @{
+      ViewData["Title"] = "Edit Guest";
+  }
+  <div class="row justify-content-center">
+      <div class="col-md-6">
+          <div class="card">
+              <div class="card-header bg-primary text-white">
+                  <h4><i class="fas fa-edit me-2"></i>Edit Guest</h4>
+              </div>
+              <div class="card-body">
+                  <form asp-action="Edit" method="post" class="mt-3">
+                      <input type="hidden" asp-for="Id" />
+                      <input type="hidden" asp-for="WeddingId" />
+                      <div class="mb-3">
+                          <label asp-for="Name" class="form-label"><i class="fas fa-user me-2"></i>Name</label>
+                          <input asp-for="Name" class="form-control" required />
+                          <span asp-validation-for="Name" class="error-message"></span>
+                      </div>
+                      <div class="mb-3">
+                          <label asp-for="RSVP" class="form-label"><i class="fas fa-check-circle me-2"></i>RSVP</label>
+                          <select asp-for="RSVP" class="form-select">
+                              <option value="Accepted">Accepted</option>
+                              <option value="Declined">Declined</option>
+                              <option value="Pending">Pending</option>
+                          </select>
+                          <span asp-validation-for="RSVP" class="error-message"></span>
+                      </div>
+                      <div class="mb-3">
+                          <label asp-for="MealPreference" class="form-label"><i class="fas fa-utensils me-2"></i>Meal Preference</label>
+                          <input asp-for="MealPreference" class="form-control" />
+                          <span asp-validation-for="MealPreference" class="error-message"></span>
+                      </div>
+                      <div class="mb-3">
+                          <label asp-for="SeatingArrangement" class="form-label"><i class="fas fa-chair me-2"></i>Seating</label>
+                          <input asp-for="SeatingArrangement" class="form-control" />
+                          <span asp-validation-for="SeatingArrangement" class="error-message"></span>
+                      </div>
+                      <button type="submit" class="btn btn-primary w-100"><i class="fas fa-save me-2"></i>Save</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>

@@ -3,16 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - DreamDay Wedding Planner</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>DreamDay - Wedding Planner</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="/">DreamDay</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="/"><i class="fas fa-ring me-2"></i>DreamDay</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -20,27 +22,34 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="Dashboard" asp-action="Index">Dashboard</a>
+                                <a class="nav-link" href="/Dashboard"><i class="fas fa-tachometer-alt me-1"></i>Dashboard</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Venue" asp-action="Index">Venues</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Vendor" asp-action="Index">Vendors</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    <i class="fas fa-heart me-1"></i>Wedding Management
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/Venue">Venues</a></li>
+                                    <li><a class="dropdown-item" href="/Vendor">Vendors</a></li>
+                                    <li><a class="dropdown-item" href="/Checklist/Index/@ViewBag.WeddingId">Checklist</a></li>
+                                    <li><a class="dropdown-item" href="/GuestList/Index/@ViewBag.WeddingId">Guest List</a></li>
+                                    <li><a class="dropdown-item" href="/Budget/Index/@ViewBag.WeddingId">Budget</a></li>
+                                    <li><a class="dropdown-item" href="/Timeline/Index/@ViewBag.WeddingId">Timeline</a></li>
+                                </ul>
                             </li>
                             @if (User.IsInRole("Planner"))
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Planner" asp-action="Index">Planner</a>
+                                    <a class="nav-link" href="/Planner"><i class="fas fa-user-tie me-1"></i>Planner</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Report" asp-action="Index">Reports</a>
+                                    <a class="nav-link" href="/Report"><i class="fas fa-chart-bar me-1"></i>Reports</a>
                                 </li>
                             }
                             @if (User.IsInRole("Admin"))
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Admin" asp-action="Index">Admin</a>
+                                    <a class="nav-link" href="/Admin"><i class="fas fa-user-shield me-1"></i>Admin</a>
                                 </li>
                             }
                         }
@@ -49,18 +58,21 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <form asp-controller="Account" asp-action="Logout" method="post">
-                                    <button type="submit" class="nav-link btn btn-link">Logout</button>
+                                <span class="nav-link">Welcome, @User.Identity.Name</span>
+                            </li>
+                            <li class="nav-item">
+                                <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                                    <button type="submit" class="nav-link btn btn-link"><i class="fas fa-sign-out-alt me-1"></i>Logout</button>
                                 </form>
                             </li>
                         }
                         else
                         {
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                                <a class="nav-link" href="/Account/Login"><i class="fas fa-sign-in-alt me-1"></i>Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+                                <a class="nav-link" href="/Account/Register"><i class="fas fa-user-plus me-1"></i>Register</a>
                             </li>
                         }
                     </ul>
@@ -73,12 +85,10 @@
             @RenderBody()
         </main>
     </div>
-    <footer class="footer text-muted text-center mt-4">
-        <div class="container">
-            &copy; 2025 - DreamDay Wedding Planner
-        </div>
+    <footer class="bg-light text-center py-3">
+        <p><i class="fas fa-heart me-1"></i>© 2025 DreamDay Wedding Planner</p>
     </footer>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/bootstrap.bundle.min.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

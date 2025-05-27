@@ -1,35 +1,29 @@
-@{
-       ViewData["Title"] = "Register";
-   }
-   <h1>Register</h1>
-   <div class="row">
-       <div class="col-md-6">
-           <form asp-action="Register" method="post">
-               <div asp-validation-summary="All" class="error"></div>
-               <div class="form-group mb-3">
-                   <label for="username">Username</label>
-                   <input id="username" name="username" class="form-control" required />
-               </div>
-               <div class="form-group mb-3">
-                   <label for="email">Email</label>
-                   <input id="email" name="email" type="email" class="form-control" required />
-               </div>
-               <div class="form-group mb-3">
-                   <label for="password">Password</label>
-                   <input id="password" name="password" type="password" class="form-control" required />
-               </div>
-               <div class="form-group mb-3">
-                   <label for="role">Role</label>
-                   <select id="role" name="role" class="form-control" required>
-                       <option value="Couple">Couple</option>
-                       <option value="Planner">Planner</option>
-                       <option value="Admin">Admin</option>
-                   </select>
-               </div>
-               <button type="submit" class="btn btn-primary">Register</button>
-           </form>
-       </div>
-   </div>
-   @section Scripts {
-       <partial name="_ValidationScriptsPartial" />
-   }
+@model IEnumerable<DreamDay.Models.Wedding>
+  @{
+      ViewData["Title"] = "Wedding Dashboard";
+  }
+  <div class="row justify-content-center">
+      <div class="col-12">
+          <h1 class="text-center mb-4"><i class="fas fa-tachometer-alt me-2"></i>Wedding Dashboard</h1>
+          <div class="row">
+              @foreach (var wedding in Model)
+              {
+                  <div class="col-md-4 mb-4">
+                      <div class="card">
+                          <div class="card-body">
+                              <h5 class="card-title"><i class="fas fa-heart me-2"></i>@wedding.Name</h5>
+                              <p class="card-text"><i class="fas fa-calendar-alt me-2"></i>Date: @wedding.Date.ToShortDateString()</p>
+                              <p class="card-text"><i class="fas fa-dollar-sign me-2"></i>Budget: $@wedding.Budget</p>
+                              <div class="d-flex flex-wrap gap-2">
+                                  <a href="/Checklist/Index/@wedding.Id" class="btn btn-primary btn-sm"><i class="fas fa-list-check me-2"></i>Checklist</a>
+                                  <a href="/GuestList/Index/@wedding.Id" class="btn btn-secondary btn-sm"><i class="fas fa-users me-2"></i>Guests</a>
+                                  <a href="/Budget/Index/@wedding.Id" class="btn btn-info btn-sm"><i class="fas fa-wallet me-2"></i>Budget</a>
+                                  <a href="/Timeline/Index/@wedding.Id" class="btn btn-success btn-sm"><i class="fas fa-clock me-2"></i>Timeline</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              }
+          </div>
+      </div>
+  </div>

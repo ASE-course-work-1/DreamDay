@@ -1,5 +1,7 @@
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/appsettings.Development.json
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/appsettings.json
+/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/package-lock.json
+/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/package.json
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/DreamDay.staticwebassets.runtime.json
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/DreamDay
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/DreamDay.deps.json
@@ -111,5 +113,3 @@
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/DreamDay.pdb
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/DreamDay.genruntimeconfig.cache
 /Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/obj/Debug/net8.0/ref/DreamDay.dll
-/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/package-lock.json
-/Users/dinethpanditha/Desktop/DreamDayWeddingPlanner/DreamDay/bin/Debug/net8.0/package.json

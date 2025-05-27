@@ -24,12 +24,14 @@ namespace DreamDay.Controllers
 
             if (user.Role == "Planner")
             {
-                var weddings = _context.Weddings.ToList(); // Planners see all weddings
+                var weddings = _context.Weddings.ToList();
+                ViewBag.WeddingId = weddings.FirstOrDefault()?.Id ?? 0; // Set default WeddingId
                 return View(weddings);
             }
             else
             {
                 var weddings = _context.Weddings.Where(w => w.UserId == userId).ToList();
+                ViewBag.WeddingId = weddings.FirstOrDefault()?.Id ?? 0; // Set default WeddingId
                 return View(weddings);
             }
         }
